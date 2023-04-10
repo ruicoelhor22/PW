@@ -1,0 +1,336 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #DDEFF5;
+	margin: 0;
+}
+
+header {
+	background-color: #FCFCFC;
+	color: #ffffff;	
+	padding: 20px;
+	position: fixed;
+	position: fixed; /* Fix the position of the header */
+	top: 0; /* Position it at the top of the viewport */
+	width: 100%; /* Set the width to 100% of the viewport */
+	z-index: 99;
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+#barraUtilizador img {
+	height: 40px; /* Set the height of the logo */
+	width: auto; /* Allow the width to adjust automatically based on the height */
+	/*margin: 0px; /* Add margin to the logo for spacing */
+	z-index: 100;
+	margin-left: 10px;
+  }
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+
+nav a {
+	color: #000000;
+	font-weight: normal;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    letter-spacing: 1px;
+}
+
+nav a.active {
+	font-weight: bold;
+	color: #DE9E36;
+}
+
+.nav-list {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: flex; /* Use flexbox to align the list items */
+	justify-content: flex-end; /* Align list items to the right */
+}
+  
+.nav-list li {
+	margin-left: 50px; /* Add some horizontal spacing between list items */
+}
+  
+.nav-list li:first-child {
+	margin-left: 0; /* Remove margin for the first list item */
+}
+  
+.nav-list li:last-child {
+	margin-right: 70px;
+}
+
+.nav-list img {
+	justify-content:flex-start;
+}
+
+.image-container {
+	position: relative; /* Set the container to relative positioning */
+  }
+  
+  .text-overlay1 {
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	position: absolute;
+    top: 25%; /* Set the top position to 50% */
+    left: 50%; /* Set the left position to 50% */
+    transform: translate(-50%, -50%); /* Use transform to center the text */
+    text-align:center; /* Set the text alignment to center */
+    color: #000000; /* Set the text color */
+    font-size: 100px; /* Set the font size */
+	font-weight: bold;
+	white-space: nowrap;
+    /*background-color: rgba(255, 255, 255, 0.5); /* Set the background color and opacity */
+    padding: 10px; /* Add padding to the text */
+  }
+
+  .text-overlay2 {
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	position: absolute;
+    top: 33%; /* Set the top position to 50% */
+    left: 50%; /* Set the left position to 50% */
+    transform: translate(-50%, -50%); /* Use transform to center the text */
+    text-align: center; /* Set the text alignment to center */
+    color: #000000; /* Set the text color */
+    font-size: 35px; /* Set the font size */
+	font-weight: bold;
+	white-space: nowrap;
+    /*background-color: rgba(255, 255, 255, 0.5); /* Set the background color and opacity */
+    padding: 10px; /* Add padding to the text */
+  }
+
+  .container {
+	display: flex;
+}
+
+.inicio2 {
+	width: 741px;
+	margin-top: 50px;
+	margin-left: 50px;
+	border-radius: 0px;
+}
+
+.inicio2 img {
+	width: 100%;
+	object-fit: cover;
+	transition: transform 0.3s ease-in-out;
+}
+
+.texto-lateral-titulo {
+	position: absolute;
+	width: 389px;
+	height: 134px;
+	left: 1000px;
+	top: 1100px;
+	font-family: 'Poppins';
+	font-style: bold;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 38px; /* or 120% */
+	text-align: center;
+	color: #37323E;
+}
+
+.texto-lateral {
+	position: absolute;
+	width: 389px;
+	height: 134px;
+	left: 1000px;
+	top: 1258px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px; /* or 120% */
+	text-align:justify;
+	color: #37323E;
+}
+
+.texto-lateral-baixo {
+	position: absolute;
+	width: 389px;
+	height: 134px;
+	left: 1000px;
+	top: 1750px;
+	font-family: 'Poppins';
+	font-style: bold;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 38px; /* or 120% */
+	text-align: center;
+	color: #37323E;
+}
+
+
+.inicio3 {
+	margin-top: 50px;
+	width: 100%;
+    overflow: hidden;
+}
+
+.inicio3 img {
+    width: 100%;
+    height: auto;
+}
+
+/*
+
+*/
+
+
+.image-gallery {
+	margin-top: 50px;
+    max-width: 1472px;
+    margin: 0 auto;
+}
+
+.row {
+	margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.image-item {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.image-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+  
+ /* .custom-div {
+	position: absolute;
+	width: 1472px;
+	height: 3327px;
+	left: -204px;
+	top: 2129px;
+	background: #DDEFF5;
+	border-radius: 0px;
+}
+s
+  .v27_8 {
+	width: 301px;
+	color: rgba(255,255,255,1);
+	position: absolute;
+	top: 2260px;
+	left: 25px;
+	font-family: Poppins;
+	font-weight: Bold;
+	font-size: 35px;
+	opacity: 1;
+	text-align: center;
+  }
+  .v27_34 {
+	width: 301px;
+	color: rgba(251,251,251,1);
+	position: absolute;
+	top: 2261px;
+	left: 308px;
+	font-family: Poppins;
+	font-weight: Bold;
+	font-size: 35px;
+	opacity: 1;
+	text-align: center;
+  }
+  .v27_39 {
+	width: 301px;
+	color: rgba(255,255,255,1);
+	position: absolute;
+	top: 2467px;
+	left: 28px;
+	font-family: Poppins;
+	font-weight: Bold;
+	font-size: 35px;
+	opacity: 1;
+	text-align: center;
+  }
+  .v27_41 {
+	width: 301px;
+	color: rgba(255,255,255,1);
+	position: absolute;
+	top: 2467px;
+	left: 586px;
+	font-family: Poppins;
+	font-weight: Bold;
+	font-size: 35px;
+	opacity: 1;
+	text-align: center;
+  }
+  .v37_5 {
+	width: 301px;
+	color: rgba(255,255,255,1);
+	position: absolute;
+	top: 2664px;
+	left: 299px;
+	font-family: Poppins;
+	font-weight: Bold;
+	font-size: 35px;
+	opacity: 1;
+	text-align: center;
+  }
+  .v37_6 {
+	width: 301px;
+	color: rgba(255,255,255,1);
+	position: absolute;
+	top: 2664px;
+	left: 589px;
+	font-family: Poppins;
+	font-weight: Bold;
+	font-size: 35px;
+	opacity: 1;
+	text-align: center;
+  }
+  .v38_30 {
+	width: 301px;
+	color: rgba(255,255,255,1);
+	position: absolute;
+	top: 2664px;
+	left: 329px;
+	font-family: Poppins;
+	font-weight: Bold;
+	font-size: 35px;
+	opacity: 1;
+	text-align: center;
+  }
+  .v37_7 {
+	width: 301px;
+	color: rgba(255,255,255,1);
+	position: absolute;
+	top: 2467px;
+	left: 306px;
+	font-family: Poppins;
+	font-weight: Bold;
+	font-size: 35px;
+	opacity: 1;
+	text-align: center;
+  }
+  .v37_8 {
+	width: 301px;
+	color: rgba(255,255,255,1);
+	position: absolute;
+	top: 2872px;
+	left: 336px;
+	font-family: Poppins;
+	font-weight: Bold;
+	font-size: 35px;
+	opacity: 1;
+	text-align: center;
+  }
